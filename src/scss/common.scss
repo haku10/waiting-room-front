@@ -1,0 +1,16 @@
+// 全体で使用できるclassを定義
+@import 'import';
+
+// スマホサイズで強制非表示
+.spHidden {
+  @include mediaQuery(max-md) {
+    display: none !important;
+  }
+}
+
+// PCサイズで強制非表示
+.pcHidden {
+  @include mediaQuery(md) {
+    display: none !important;
+  }
+}

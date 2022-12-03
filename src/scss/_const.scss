@@ -1,0 +1,10 @@
+// このあたりは柔軟に変更したい
+$breakPoints: (
+  'sm': '(min-width: 640px)',
+  'md': '(min-width: 768px)',
+  'lg': '(min-width: 1024px)',
+  'xl': '(min-width: 1280px)',
+  '2xl': '(min-width: 1536px)',
+  // スマホサイズのみにCSSを適用したい場合用（特殊パターン。基本使用しない）
+  'max-md': '(max-width: 768px)'
+) !default;
